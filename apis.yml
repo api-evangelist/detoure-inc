@@ -1,7 +1,24 @@
 aid: detoure-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/detoure-inc.png
 name: Detoure Inc
-description: Detoure Inc is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Detoure Inc (DETOURE) is a sustainable fashion resale marketplace, backed
+  by 500 Global, that sources highly curated clothing from influencers and tastemakers
+  and offers it to shoppers at thrift prices. The platform lets customers buy current
+  trends from the creators they follow while cutting down on excess fashion waste,
+  and lets influencers and partners apply to consign and sell items from their own
+  closets. Detoure operates as a consumer e-commerce brand on a hosted Shopify storefront
+  and does not currently publish a public developer API, SDKs, or developer documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/detoure-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fashion
+- Resale Marketplace
+- E-Commerce
+- Sustainable Fashion
+- Re-Commerce
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/detoure-inc-domain-security.yml
 - type: Website
   url: https://detoure.co
+- type: TermsOfService
+  url: https://detoure.co/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://detoure.co/policies/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
