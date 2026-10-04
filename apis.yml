@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/detoure-inc.png
-name: Detoure Inc
+name: Detoure
 description: 'Detoure Inc (DETOURE) is a sustainable fashion resale marketplace, backed
   by 500 Global, that sources highly curated clothing from influencers and tastemakers
   and offers it to shoppers at thrift prices. The platform lets customers buy current
@@ -76,3 +76,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Detoure Inc
